@@ -62,7 +62,7 @@ a := p.age                                 // access a structs parameter
 ```go
 a := [3]int{2, 3, 4}  // init a array of 3 elements of type int
 b := [...]int{2, 3}  // compiler counts the number of elements
-s[3] = 100            // assign the 3rd element of myArray with 100
+s[3] = 100            // assign the 4th element of myArray with 100 (index is 0-based)
 len(a)                // length of my array
 var c = [2][2]int     // init a 2D array
 ```
